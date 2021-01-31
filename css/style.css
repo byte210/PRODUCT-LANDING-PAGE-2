@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+body{
+    overflow-x: hidden;
+    background-color:rgb(52, 58, 64) !important;
+}
+#header-img{
+    max-width: 40px;
+}
+
+#home{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.profile-container{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-20%, -20%);
+}
+.profile-description{
+    font-family: 'Carter One', cursive;
+}
+
+#leaveMail{
+    margin-top: 100px;
+}
+
+#video{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    max-width: 200px;
+}
+
+#dream{
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color:rgb(52, 58, 64) !important;
+}
+
+.buttons{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-65%, -35%);
+}
+
+.carousel-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -70%); 
+    overflow: hidden;
+    width: 452px;
+    margin: auto;
+    border: 10px solid white;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width: 768px){
+    .carousel-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -70%); 
+        overflow: hidden;
+        max-width: 452px;
+        margin: auto;
+        border: 10px solid white;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .carousel-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -70%); 
+        overflow: hidden;
+        max-width: 452px;
+        margin: auto;
+        border: 10px solid white;
+        border-radius: 15px;
+    }
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500%;
+}
+
+#videos{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+
+}
+
+#pricing{
+    width: 100vw;
+    height: 50vh; 
+}
